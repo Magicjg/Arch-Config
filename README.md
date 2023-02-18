@@ -1,6 +1,6 @@
 # Personal desktop configuration using qtile for arch.
 ***
-![alt text](" screen")
+![alt text](https://raw.githubusercontent.com/Magicjg/Arch-config/main/screenshots/sceen.png"screen")
 ***
 ## Software to install.
 
@@ -119,7 +119,7 @@ Now we install some packages to complete our config.
 sudo pacman -S pulseaudio pavucontrol brightnessctl xorg-init picom volumeicon udisk thunar udiskie udisks2 scort lxappearance notification-daemon cbatticon network-manager-applet
 ```
 
-Before we shut down our pc or reboot we need to add startup file [autostart. sh]() and edit [. Xsession]() and we are ready to use the basic config on our system.
+Before we shut down our pc or reboot we need to add startup file [autostart. sh](https://github.com/Magicjg/Arch-config/blob/main/qtile/autostart.sh) and edit [.xsession](https://github.com/Magicjg/Arch-config/blob/main/.xsession) and we are ready to use the basic config on our system.
 
 ***
 
@@ -129,13 +129,13 @@ I like to use some extra software to give an extra appearance of my desktop.
 
 I like to use [oh-my-zsh](https://ohmyz.sh/) with the team [Powerlevel10k](https://github.com/romkatv/powerlevel10k) you can configure all this in your own way so you can start coding.
 
->If you want to use my config an my plugins, I let you the [.zshrc]() code so you can use my plugins and config just remember to move it to `home/user/`.
+>If you want to use my config an my plugins, I let you the [.zshrc](https://github.com/Magicjg/Arch-config/blob/main/.zshrc) code so you can use my plugins and config just remember to move it to `home/user/`.
 
 >To use my zsh config you well need to clone some repos from gitgub so you can use some plugins and install some packages.
 
 ***
 
-To make more interactive the terminal y uses [exa](https://archlinux.org/packages/community/x86_64/exa/) to add some colors if you want this you will have to edit [.zshrc]() y will let you my config so you can copy both you can make your own alias in this section.
+To make more interactive the terminal y uses [exa](https://archlinux.org/packages/community/x86_64/exa/) to add some colors if you want this you will have to edit [.zshrc](https://github.com/Magicjg/Arch-config/blob/main/.zshrc) y will let you my config so you can copy both you can make your own alias in this section.
 
 ```
 # Example aliases
@@ -155,7 +155,7 @@ sudo pacman -S
 sudo ln -s nvim vim
 ```
 
-To add a theme to your kitty just follows the steps [here]() y like the obsidian one.
+To add a theme to your kitty just follows the steps [here](https://github.com/dexpota/kitty-themes) y like the obsidian one.
 
 ### In all the code I comment the lines that I don't use you can uncomment or add something  to make this configuration on your own.
 
