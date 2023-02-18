@@ -64,7 +64,7 @@ sudo pacman -Syu
 
 Now we have to install a couple of things we can use this line.
 ```
-sudo pacman -S xorg xorg-server qtile lightdm ligthdm-gtk-greeter kitty
+sudo pacman -S xorg xorg-server qtile lightdm lightdm-gtk-greeter kitty
 ```
 > You can use if you want any terminal like xterm or alacritty the new features of qtile detect your terminal. 
 
@@ -91,6 +91,7 @@ sudo pacman -S ttf-hack-nerd ttf-meslo-nerd-font-powerlevel10k ttf-ubuntu-mono-n
 We install [feh](https://wiki.archlinux.org/title/feh) to set a wallpaper.
 
 ```
+sudo pacman -S feh
 feh --bg-fill /wallpaper.png
 ```
 
@@ -116,7 +117,7 @@ rofi-theme-selector
 Now we install some packages to complete our config.
 
 ```
-sudo pacman -S pulseaudio pavucontrol brightnessctl xorg-init picom volumeicon udisk thunar udiskie udisks2 scort lxappearance notification-daemon cbatticon network-manager-applet
+sudo pacman -S pulseaudio pavucontrol brightnessctl xorg-xinit picom volumeicon udisk thunar udiskie udisks2 scrot lxappearance notification-daemon cbatticon network-manager-applet
 ```
 
 Before we shut down our pc or reboot we need to add startup file [autostart. sh](https://github.com/Magicjg/Arch-config/blob/main/qtile/autostart.sh) and edit [.xsession](https://github.com/Magicjg/Arch-config/blob/main/.xsession) and we are ready to use the basic config on our system.
