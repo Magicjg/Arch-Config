@@ -1,6 +1,6 @@
 # Personal desktop configuration using qtile for arch.
 ***
-![alt text](https://raw.githubusercontent.com/Magicjg/Arch-config/main/screenshots/sceen.png"screen")
+![alt text](https://raw.githubusercontent.com/Magicjg/Arch-config/main/screenshots/sceen.png "Screen")
 ***
 ## Software to install.
 
@@ -96,7 +96,7 @@ feh --bg-fill /wallpaper.png
 
 >Chose the route where you have your wallpaper. 
 
-Now we can start making edits on [.config/qtile/config.py]() or you can copy my configuration on this repo.
+Now we can start making edits on [.config/qtile/config.py](https://github.com/Magicjg/Arch-config/blob/main/qtile/config.py) or you can copy my configuration on this repo.
 
 >To apply changes on qtile we can use mod+ctrl+r. 
 >The "mod" key is commonly known as the Windows key. (The one with the windows logo).
